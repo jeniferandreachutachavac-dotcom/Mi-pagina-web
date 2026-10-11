@@ -1,82 +1,20 @@
 ﻿body {
-    background-color: #0d3282; /* Fondo azul oscuro */
-    color: #ffffff;            /* Texto blanco */
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 30px 50px;
+    background-color: #eaf1f8;
+    font-family: Arial;
+    text-align: center;
+    color: #174a75;
 }
 
-.encabezado-superior {
-    margin-bottom: 25px;
+h1 {
+    color: navy;
 }
 
-.encabezado-superior h1 {
-    font-size: 28px;
-    margin: 0 0 8px 0;
-    color: #ffffff;
+img {
+    border-radius: 10px;
 }
 
-.enlace-segundo {
-    color: #ffffff;
-    text-decoration: underline;
-    font-size: 15px;
-}
-
-.contenedor-principal {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    align-items: flex-start;
-    margin-top: 15px;
-}
-
-.columna-izquierda {
-    width: 280px;
-}
-
-.foto-rectangular {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 4px;
-}
-
-.titulo-seccion {
-    font-size: 32px;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 0;
-    color: #ffffff;
-}
-
-.columna-derecha {
-    flex: 1;
-    min-width: 300px;
-}
-
-.lista-biografia {
-    list-style-type: none;
-    padding-left: 0;
-    margin: 0 0 25px 0;
-}
-
-.lista-biografia li {
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 12px;
-}
-
-.boton-mensaje {
-    background-color: #27ae60;
-    color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 15px;
-    font-weight: bold;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.boton-mensaje:hover {
-    background-color: #219150;
+button {
+    background-color: navy;
+    color: white;
+    padding: 10px;
 }

@@ -1,3 +1,3 @@
-﻿document.getElementById("btnMensaje").addEventListener("click", function() {
-    alert("¡Hola! Has presionado el botón.");
+﻿document.getElementById("boton").addEventListener("click", function() {
+    alert("¡Hola! Bienvenido a mi página.");
 });
